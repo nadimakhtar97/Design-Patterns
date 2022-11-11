@@ -15,12 +15,14 @@ public class Animal {
 
     @Override
     public String toString() {
-        return "Animal{" +
-                "name='" + name + '\'' +
-                ", color='" + color + '\'' +
-                ", age=" + age +
-                ", fly=" + fly +
-                ", walk=" + walk +
-                '}';
+        System.out.print("Eat: ");
+        this.eat();
+        System.out.print("Talk: ");
+        this.talk();
+        System.out.print("Walk: ");
+        this.walk.walk();
+        System.out.print("Fly: ");
+        this.fly.fly();
+        return this.name + " " + this.color + " " + this.age + "\n" ;
     }
 }

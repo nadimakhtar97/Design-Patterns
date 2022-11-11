@@ -1,19 +1,19 @@
-public class Cat extends Animal{
+public class Snake extends Animal{
     @Override
     public void talk() {
-        System.out.println("Meow!!");
+        System.out.println("hiisss...");
     }
 
     @Override
     public void eat() {
-        System.out.println("cat eat");
+        System.out.println("snake eat");
     }
 
-    Cat(String name,String color,Integer age){
+    Snake(String name,String color,Integer age){
         this.name = name;
         this.color = color;
         this.age = age;
         this.fly = new NoFly();
-        this.walk = new FastWalk();
+        this.walk = new Crawl();
     }
 }

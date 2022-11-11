@@ -17,4 +17,6 @@ public class Dog extends  Animal{
         this.fly = new NoFly();
         this.walk = new SimpleWalk();
     }
+
+
 }
